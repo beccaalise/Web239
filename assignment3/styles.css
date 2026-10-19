@@ -80,7 +80,8 @@ button:disabled {
 
 #cat-gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 18rem));
+    justify-content: center;
     gap: 1.5rem;
 }
 
