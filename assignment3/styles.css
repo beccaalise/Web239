@@ -77,3 +77,29 @@ button:disabled {
     opacity: 0.6;
     cursor: wait;
 }
+
+#cat-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr));
+    gap: 1.5rem;
+}
+
+.cat-card {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(121, 76, 144, 0.12);
+    border: 3px solid #ffd6ba;
+}
+
+.cat-card img {
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 0.75rem;
+}
+
+.cat-card p {
+    color: #666;
+    overflow-wrap: anywhere;
+}
