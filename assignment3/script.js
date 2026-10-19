@@ -1,3 +1,4 @@
+console.log("JavaScript is working!");
 
 const generateButton = document.getElementById("generate-btn");
 const catCount = document.getElementById("cat-count");
