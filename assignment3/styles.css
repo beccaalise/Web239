@@ -32,5 +32,48 @@ main {
 }
 
 .controls {
-  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: #fff5c9;
+    border-radius: 1rem;
+}
+
+.controls label {
+    font-weight: bold;
+}
+
+select,
+button {
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border: 2px solid #c7b3e5;
+}
+
+select {
+    background-color: white;
+    color: #794c90;
+}
+
+button {
+    background-color: #b8e7d1;
+    color: #315b4a;
+    border-color: #8ecfb2;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #8ecfb2;
+}
+
+button:disabled {
+    opacity: 0.6;
+    cursor: wait;
 }
